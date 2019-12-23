@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+  Name: William Heslop
+  Email:  heslopwv@gmail.com
+  Date Created:  12/17/2019
+  Revision Date: 12/17/2019
+  /-->
+
+<html lang="en">
+  <head>
+    <title>William Heslop's Contact Info</title>
+    <header>
+      <h1>Contact Information</h1>
+    </header>
+    <hr>
+    <!--
+    We need to add links to projects.html, contact.html, and testimonials.html.
+    -->
+    <nav>
+      <a href="index.html" /> <img src="images/heslop_vince_sm.jpg"  alt="Professional Photo">
+    </nav>
+    <hr>
+  </head>
+  <body>
+    <Main>
+          <h2>
+            Information Request
+          </h2>
+            <form action="submit.html" method="Post"/>
+              <label for="firstName">First Name:</label> <br />
+                <input type="text" id="firstName" name="firstName"> <br />
+              <label for="lastName">Last Name:</label> <br />
+                <input type="text" id="lastName" name="lastName"> <br />
+              <label for="phone">Phone Number:</label> <br />
+                <input type="text" id="phone" name="phone"> <br />
+              <label for="contact">Best time to call:</label> <br />
+              <select id="contact" name=contact>
+                <option value="default" selected>--select one--</option>
+                <option value="morning" selected>8:00 AM - 12:00 PM EST</option>
+                <option value="afternoon" selected>12:00 PM - 5:00 PM EST</option>
+                <option value="evening" selected>5:00 PM to 8:00 PM EST</option>
+                <select/>
+            <br />
+            <br />
+            <fieldset>
+              <legend>I am interested in (check all that apply)</legend><br />
+                <input type="checkbox" id="frontEnd" name="interest" value="frontEnd">
+                <label for="frontEnd">Front End Web Development</label><br />
+                <input type="checkbox" id="backEnd" name="interest" value="backEnd">
+                <label for="backEnd">Back End Web Development</label><br />
+                <input type="checkbox" id="database" name="interest" value="database">
+                <label for="database">Database Design</label><br />
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>I have filled in the client questionnaire form:</legend><br />
+                <input type="radio" id="choice1" name="questionnaire" value="yes">
+                  <label for="choice1">Yes</label><br />
+                  <input type="radio" id="choice2" name="questionnaire" value="no">
+                  <label for="choice2">No</label><br />
+            </fieldset>
+            <br />
+                <label for="info">Additional Information</label><br />
+                <textarea id="info" name="info"></textarea>
+            <br />
+            <br />
+                <input type="submit" name="submit" value="Submit">
+            <br />
+            <br />
+            <hr>
+            <p>
+              &copy; 2020 William Heslop.  All rights reserved.
+            </p>
+      <footer>
+        <hr>
+      </footer>
+    </Main>
+  </body>
+</html>
